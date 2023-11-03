@@ -42,8 +42,8 @@
       bindings = <&kp>, <&kp>;
       hold-trigger-key-positions = <41 42 43>;
     };
-};
-  / {
+  };
+  {
   combos {
         compatible = "zmk,combos";
         combo_esc {
@@ -52,7 +52,7 @@
             bindings = <&kp ESC>;
         };
     };
-};
+  };
 
     keymap {
         compatible = "zmk,keymap";
