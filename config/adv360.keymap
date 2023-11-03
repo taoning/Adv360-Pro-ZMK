@@ -23,6 +23,7 @@
     quick-tap-ms = <175>;
     flavor = "balanced";
     hold-trigger-on-release;
+    require-prior-idle-ms = <150>;
 };
 
 / {
