@@ -42,6 +42,50 @@
 };
 
 / {
+   combos {
+       compatible = "zmk,combos";
+       combo_lpr {
+           timeout-ms = <18>;
+           key-positions = <37 38>;
+           bindings = <&kp LEFT_PARENTHESIS>;
+       };
+   };
+};
+
+/ {
+   combos {
+       compatible = "zmk,combos";
+       combo_rpr {
+           timeout-ms = <18>;
+           key-positions = <38 39>;
+           bindings = <&kp RIGHT_PARENTHESIS>;
+       };
+   };
+};
+
+/ {
+   combos {
+       compatible = "zmk,combos";
+       combo_lbr {
+           timeout-ms = <18>;
+           key-positions = <49 50>;
+           bindings = <&kp LEFT_BRACE>;
+       };
+   };
+};
+
+/ {
+   combos {
+       compatible = "zmk,combos";
+       combo_rbr {
+           timeout-ms = <18>;
+           key-positions = <50 51>;
+           bindings = <&kp RIGHT_BRACE>;
+       };
+   };
+};
+
+/ {
   behaviors {
     #include "macros.dtsi"
 
