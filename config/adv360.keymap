@@ -23,66 +23,68 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <18>;
-            key-positions = <23 24>;
+            key-positions = <22 23>;
             bindings = <&kp LEFT_BRACKET>;
         };
     };
 };
 
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <18>;
-            key-positions = <24 25>;
-            bindings = <&kp RIGHT_BRACKET>;
-        };
-    };
-};
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <18>;
-            key-positions = <37 38>;
-            bindings = <&kp LEFT_PARENTHESIS>;
-        };
-    };
-};
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <18>;
-            key-positions = <38 39>;
-            bindings = <&kp RIGHT_PARENTHESIS>;
-        };
-    };
-};
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <18>;
-            key-positions = <49 50>;
-            bindings = <&kp LEFT_BRACE>;
-        };
-    };
-};
-
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <18>;
-            key-positions = <50 51>;
-            bindings = <&kp RIGHT_BRACE>;
-        };
-    };
-};
+/*
+ */ {
+ *    combos {
+ *        compatible = "zmk,combos";
+ *        combo_esc {
+ *            timeout-ms = <18>;
+ *            key-positions = <24 25>;
+ *            bindings = <&kp RIGHT_BRACKET>;
+ *        };
+ *    };
+ *};
+ *
+ */ {
+ *    combos {
+ *        compatible = "zmk,combos";
+ *        combo_esc {
+ *            timeout-ms = <18>;
+ *            key-positions = <37 38>;
+ *            bindings = <&kp LEFT_PARENTHESIS>;
+ *        };
+ *    };
+ *};
+ *
+ */ {
+ *    combos {
+ *        compatible = "zmk,combos";
+ *        combo_esc {
+ *            timeout-ms = <18>;
+ *            key-positions = <38 39>;
+ *            bindings = <&kp RIGHT_PARENTHESIS>;
+ *        };
+ *    };
+ *};
+ *
+ */ {
+ *    combos {
+ *        compatible = "zmk,combos";
+ *        combo_esc {
+ *            timeout-ms = <18>;
+ *            key-positions = <49 50>;
+ *            bindings = <&kp LEFT_BRACE>;
+ *        };
+ *    };
+ *};
+ *
+ */ {
+ *    combos {
+ *        compatible = "zmk,combos";
+ *        combo_esc {
+ *            timeout-ms = <18>;
+ *            key-positions = <50 51>;
+ *            bindings = <&kp RIGHT_BRACE>;
+ *        };
+ *    };
+ *};
+ */
 
 / {
   behaviors {
