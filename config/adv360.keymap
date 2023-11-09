@@ -27,6 +27,15 @@
             bindings = <&kp LEFT_BRACKET>;
         };
     };
+
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <18>;
+            key-positions = <24 25>;
+            bindings = <&kp RIGHT_BRACKET>;
+        };
+    };
 };
 
 / {
