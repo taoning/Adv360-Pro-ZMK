@@ -117,7 +117,7 @@
    &kp TAB      &kp Q      &kp W     &kp E     &kp R   &kp T                             &none                                                                      &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
    &kp ESC    &hm LSHIFT A      &hm LCTRL S   &hm LALT D   &hm LGUI F   &kp G                             &none   &kp LCTRL  &kp LALT                   &kp LGUI      &kp RCTRL      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z      &kp X     &lt 5 C     &lt 4 V   &kp B                                                &kp HOME                  &kp PG_UP                             &kp N   &lt 5 M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp LCTRL  &kp LALT  &hm LC(LA(LCMD)) LCMD                    &kp SPACE  &kp LSHIFT  &kp END                  &kp PG_DN  &kp BACKSPACE  &kp ENTER          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+     &mo 2  &kp GRAVE  &kp LCTRL  &kp LALT  &kp LCMD                    &hm LC(LA(LCMD)) SPACE  &kp LSHIFT  &kp END                  &kp PG_DN  &kp BACKSPACE  &kp ENTER          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
