@@ -153,10 +153,10 @@
 
         layer_Layer__4 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans                &trans                 &trans             &trans          &trans     &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp SINGLE_QUOTE       &kp MINUS   &kp PLUS  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp UNDERSCORE  &kp EQUAL  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                        &kp LEFT_BRACE        &kp RIGHT_BRACE      &kp BACKSLASH        &kp PIPE     &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans      &trans      &trans      &trans     &trans       &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans      &kp GRAVE   &kp COLON   &kp SQT    &kp MINUS    &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans      &kp TILDE   &kp EQUAL   &kp DQT    &kp UNDER    &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                      &kp PLUS    &kp QMARK   &kp PIPE   &kp BSLH     &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                                       &trans             &trans          &trans     &trans  &trans
             >;
         };
