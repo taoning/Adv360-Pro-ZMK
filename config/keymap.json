@@ -6,9 +6,7 @@
     "base",
     "keypad",
     "fn",
-    "mod",
-    "Layer #4",
-    "Layer #5"
+    "mod"
   ],
   "layers": [
     [
@@ -35,18 +33,6 @@
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                 "&none",  "&none",  "&none",                     "&bt BT_CLR",      "&none", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                                     "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
-    ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans",               "&trans",                "&trans",            "&trans",         "&trans",    "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans",     "&kp LEFT_BRACKET",     "&kp RIGHT_BRACKET",  "&kp SINGLE_QUOTE",      "&kp MINUS",  "&kp PLUS", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp DOUBLE_QUOTES", "&kp UNDERSCORE", "&kp EQUAL", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                           "&kp LEFT_BRACE",       "&kp RIGHT_BRACE",     "&kp BACKSLASH",       "&kp PIPE",    "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                                        "&trans",            "&trans",         "&trans",    "&trans", "&trans"
-    ], [
-       "&trans",   "&trans", "&trans",   "&trans",     "&trans",      "&trans",           "&trans",                                                             "&trans",         "&trans",         "&trans",       "&trans", "&kp K_MUTE", "&kp C_VOL_DN", "&kp C_VOL_UP",
-       "&trans", "&kp EXCL", "&kp AT", "&kp HASH", "&kp DOLLAR", "&kp PERCENT",           "&trans",                                                             "&trans",      "&kp CARET",  "&kp AMPERSAND",     "&kp STAR",     "&trans",       "&trans",       "&trans",
-       "&trans",   "&trans", "&trans",   "&trans",     "&trans",      "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&kp LEFT_ARROW", "&kp DOWN_ARROW", "&kp UP_ARROW",  "&kp RIGHT",       "&trans",       "&trans",
-       "&trans",   "&trans", "&trans",   "&trans",     "&trans",      "&trans",                               "&trans",                     "&trans",                             "&trans",         "&trans",       "&trans",     "&trans",       "&trans",       "&trans",
-       "&trans",   "&trans", "&trans",   "&trans",     "&trans",                          "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                           "&trans",       "&trans",     "&trans",       "&trans",       "&trans"
     ]
   ]
 }
